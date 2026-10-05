@@ -1,0 +1,132 @@
+{
+  "normal": {
+    "mean_score": 0.23552475000000006,
+    "approve_pct": 77.75,
+    "review_pct": 14.249999999999998,
+    "decline_pct": 8.0,
+    "monitoring": {
+      "window_size": 400,
+      "min_window_size": 200,
+      "sufficient_data": true,
+      "feature_psi": {
+        "LIMIT_BAL": 0.015204759253802734,
+        "AGE": 0.0301326721486143,
+        "PAY_0": 0.0059094906450449305,
+        "utilisation_ratio": 0.028813018718608936,
+        "payment_ratio": 0.013118220869583532,
+        "max_delay": 0.0035574038132665095
+      },
+      "drift_score": 0.0301326721486143,
+      "drift_status": "stable",
+      "selection_rate": {
+        "1.0": 0.23448275862068965,
+        "2.0": 0.21568627450980393
+      },
+      "fairness_gap": 0.01879648411088572
+    }
+  },
+  "drifted_005": {
+    "mean_score": 0.2437479999999999,
+    "approve_pct": 77.5,
+    "review_pct": 14.000000000000002,
+    "decline_pct": 8.5,
+    "monitoring": {
+      "window_size": 400,
+      "min_window_size": 200,
+      "sufficient_data": true,
+      "feature_psi": {
+        "LIMIT_BAL": 0.05122869636187028,
+        "AGE": 0.03664028190250374,
+        "PAY_0": 0.0059094906450449305,
+        "utilisation_ratio": 0.06728571592542276,
+        "payment_ratio": 0.18853601381623858,
+        "max_delay": 0.0035574038132665095
+      },
+      "drift_score": 0.18853601381623858,
+      "drift_status": "moderate",
+      "selection_rate": {
+        "1.0": 0.23448275862068965,
+        "2.0": 0.2196078431372549
+      },
+      "fairness_gap": 0.014874915483434753
+    }
+  },
+  "drifted_015": {
+    "mean_score": 0.26090849999999993,
+    "approve_pct": 74.0,
+    "review_pct": 16.25,
+    "decline_pct": 9.75,
+    "monitoring": {
+      "window_size": 400,
+      "min_window_size": 200,
+      "sufficient_data": true,
+      "feature_psi": {
+        "LIMIT_BAL": 0.057217994978243904,
+        "AGE": 0.0446353232167371,
+        "PAY_0": 0.0059094906450449305,
+        "utilisation_ratio": 0.26106527018364345,
+        "payment_ratio": 1.1518368702283879,
+        "max_delay": 0.0035574038132665095
+      },
+      "drift_score": 1.1518368702283879,
+      "drift_status": "significant",
+      "selection_rate": {
+        "1.0": 0.2827586206896552,
+        "2.0": 0.24705882352941178
+      },
+      "fairness_gap": 0.03569979716024341
+    }
+  },
+  "drifted_full": {
+    "mean_score": 0.5896532499999997,
+    "approve_pct": 15.5,
+    "review_pct": 29.75,
+    "decline_pct": 54.75,
+    "monitoring": {
+      "window_size": 400,
+      "min_window_size": 200,
+      "sufficient_data": true,
+      "feature_psi": {
+        "LIMIT_BAL": 2.042614426072324,
+        "AGE": 1.7083895662107071,
+        "PAY_0": 0.8262139491782023,
+        "utilisation_ratio": 3.092137748685534,
+        "payment_ratio": 4.250969647777792,
+        "max_delay": 0.7824715460034717
+      },
+      "drift_score": 4.250969647777792,
+      "drift_status": "significant",
+      "selection_rate": {
+        "1.0": 0.8689655172413793,
+        "2.0": 0.8313725490196079
+      },
+      "fairness_gap": 0.03759296822177138
+    }
+  },
+  "unfair": {
+    "mean_score": 0.3966345000000001,
+    "approve_pct": 52.25,
+    "review_pct": 15.75,
+    "decline_pct": 32.0,
+    "monitoring": {
+      "window_size": 400,
+      "min_window_size": 200,
+      "sufficient_data": true,
+      "feature_psi": {
+        "LIMIT_BAL": 0.015204759253802734,
+        "AGE": 0.0301326721486143,
+        "PAY_0": 0.2791178533539824,
+        "utilisation_ratio": 0.028813018718608936,
+        "payment_ratio": 0.2878810982215375,
+        "max_delay": 0.35256397182052246
+      },
+      "drift_score": 0.35256397182052246,
+      "drift_status": "significant",
+      "selection_rate": {
+        "1.0": 0.9379310344827586,
+        "2.0": 0.21568627450980393
+      },
+      "fairness_gap": 0.7222447599729547
+    }
+  }
+}
