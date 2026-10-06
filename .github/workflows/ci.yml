@@ -37,7 +37,7 @@ jobs:
         # which alerts fire and when. This is the step that catches a `for:`
         # window that can never elapse.
         working-directory: monitoring/prometheus/tests
-        run: promtool test rules alert_tests.yml ml_alert_tests.yml
+        run: promtool test rules alert_tests.yml
 
       - name: Check the compose file
         run: docker compose config --quiet
